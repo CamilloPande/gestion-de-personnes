@@ -42,7 +42,7 @@ fetch("https://my-server-crud.onrender.com/personne/delete/" + id,{
 
 
 btnAjouter.addEventListener('click', function(){
-    location.href = `add.html`;
+    location.href = `add`;
 })
 
 btnModifier.addEventListener('click', function(){
