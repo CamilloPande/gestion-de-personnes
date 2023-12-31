@@ -21,7 +21,7 @@ function loadData(id){
   }
 
   btnAnuller.addEventListener('click', function(){
-      location.href = '../page/personne.html';
+      location.href = 'personne';
   })
 
   btnModifier.addEventListener('click', function(){
