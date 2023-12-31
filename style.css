@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:lightgrey;
+    font-size:1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size:1.3rem;
+}
+
+.principale{
+    height:70vh;
+}
+
+.container{
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    width:80%;
+    margin:0 auto;
+}
+
+.c-table{
+    overflow-y: scroll;
+    height:50vh;
+}
+
+
+
+table{
+    width:100%;
+    text-align:left;
+}
+
+table thead{
+    color:white;
+    background-color: darkblue;
+}
+
+table, tr, td, th{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+
+table tbody tr{
+    cursor:pointer;
+}
+
+button,input, label{
+    font-size:1rem;
+    font-weight: bolder
+}
+
+a,a:visited{
+    font-weight: bolder;
+    color:navy;
+    text-decoration: none;
+}
+
+button{
+    font-weight: bolder;
+    cursor:pointer;
+    padding:6px;
+    background-color:navy;
+    color:whitesmoke;
+    text-decoration:none;
+    cursor:pointer;
+    border-radius:50px;
+}
+
+button:hover{
+    background-color:blue;
+}
+
+.controls{
+    position:sticky;
+    bottom:0;
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    padding:5px;
+}
+
+
+
+img{
+    position:fixed;
+    cursor:pointer;
+    left:350px;
+    top:25px;
+}
+
+img:hover{
+    transform:scale(120%, 120%);
+}
+
+.form{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form p{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.form input{
+    width:60%;
+    height: 10%;
+}
+
+#back{
+    all:unset;
+}
+
+
+.top-main{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.top-main :nth-child(2){
+    align-self:center;
+    position:fixed;
+    right:40px;
+    background-color:green;
+    color:white;
+    padding:20px;
+    visibility: hidden;
+}
