@@ -50,6 +50,10 @@ table tbody tr{
     cursor:pointer;
 }
 
+table td{
+    font-size:0.7rem;
+}
+
 button,input, label{
     font-size:1rem;
     font-weight: bolder
