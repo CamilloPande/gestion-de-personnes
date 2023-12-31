@@ -26,6 +26,7 @@ h1{
 .c-table{
     overflow-y: scroll;
     height:50vh;
+    width:100%;
 }
 
 
