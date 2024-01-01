@@ -1,4 +1,6 @@
  // init all components and load database
+
+const patience = document.getElementById('txtpatienter');
  
  loadData();
 
@@ -22,6 +24,7 @@
                              <td>${personne.prenom}</td>`
             tableRows.appendChild(row);
          });
+     patience.style.display = "none";
     })        
 }
 
