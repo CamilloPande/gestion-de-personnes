@@ -24,8 +24,8 @@ const patience = document.getElementById('txtpatienter');
                              <td>${personne.prenom}</td>`
             tableRows.appendChild(row);
          });
-     patience.style.display = "none";
-    })        
+    })
+       patience.style.display = "none";
 }
 
 
